@@ -1,0 +1,33 @@
+[0.070s] Invoking command in '/home/hoseok/turtlebot3_ws/build/turtlebot3_fake': /usr/bin/cmake /home/hoseok/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/hoseok/turtlebot3_ws/install/turtlebot3_fake
+[0.199s] -- The C compiler identification is GNU 11.4.0
+[0.235s] -- The CXX compiler identification is GNU 11.4.0
+[0.241s] -- Detecting C compiler ABI info
+[0.278s] -- Detecting C compiler ABI info - done
+[0.283s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.283s] -- Detecting C compile features
+[0.284s] -- Detecting C compile features - done
+[0.286s] -- Detecting CXX compiler ABI info
+[0.326s] -- Detecting CXX compiler ABI info - done
+[0.334s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.334s] -- Detecting CXX compile features
+[0.335s] -- Detecting CXX compile features - done
+[0.344s] -- Configuring incomplete, errors occurred!
+[0.344s] See also "/home/hoseok/turtlebot3_ws/build/turtlebot3_fake/CMakeFiles/CMakeOutput.log".
+[0.344s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.344s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.344s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.344s]   CMake did not find one.
+[0.344s] 
+[0.344s]   Could not find a package configuration file provided by "catkin" with any
+[0.344s]   of the following names:
+[0.344s] 
+[0.344s]     catkinConfig.cmake
+[0.345s]     catkin-config.cmake
+[0.345s] 
+[0.345s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.345s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.345s]   provides a separate development package or SDK, be sure it has been
+[0.345s]   installed.
+[0.345s] 
+[0.345s] [0m
+[0.346s] Invoked command in '/home/hoseok/turtlebot3_ws/build/turtlebot3_fake' returned '1': /usr/bin/cmake /home/hoseok/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/hoseok/turtlebot3_ws/install/turtlebot3_fake
